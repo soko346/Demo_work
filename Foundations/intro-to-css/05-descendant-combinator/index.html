@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant combinator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="heads">
+        <p class="tails">
+            This should be styled. 
+        </p>
+    </div>
+    
+    <p class="notstyled">
+        This should be unstyled.
+    </p>
+    <p class="notstyled">
+        This should be unstyled.
+    </p>
+
+    <div class="tails">
+        <p class="heads">
+            This should be styled.
+        </p>
+        <p class="heads">
+            This should be styled.
+        </p>
+    </div>
+
+</body>
+</html>
